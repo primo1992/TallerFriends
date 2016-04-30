@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.carlos.tallerfriends.opcion3m">
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageView13"
+        android:src="@drawable/rachelpreview"
+        android:layout_below="@+id/ratingBar6"
+        android:layout_alignStart="@+id/ratingBar6"
+        android:layout_marginStart="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rachel Green worked as a barista at Central Perk cafe. During that time, her personality evolved from a spoiled egotist to a less self-centered and more likeable character. She grew from a suburban girl who dreamed of being the wife of a doctor and spending her time shopping, to that of a single mother with a career. She lost her virginity in the back of a van, before she had reached the tenth grade. Rachel also received plastic surgery on her nose, which she claims was due to a deviated septum. Rachel\&apos;s focus on vanity comes at the expense of domestic skills or common knowledge. After she had worked at Central Perk for two and a half years Gunther forced Rachel to retrain, because she does not know the essentials of work, such as where to stack trays."
+        android:id="@+id/textView8"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/button9"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:onClick="guardar" />
+</RelativeLayout>

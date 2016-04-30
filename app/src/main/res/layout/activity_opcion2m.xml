@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.carlos.tallerfriends.opcion2m">
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageView12"
+        android:src="@drawable/phoebepreview"
+        android:layout_below="@+id/ratingBar5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentStart="true"
+        android:text="Phoebe Buffay is the younger twin daughter born to Phoebe Abbott and Frank Buffay, circa 1970; her identical twin sister Ursula, was born one minute earlier. Frank was married to Abbott\&apos;s best friend, the unstable Lily, at the time; Lily adopted Phoebe and Ursula. She is from upstate New York, her father abandoned the family when she was very young, and Lily remarried an unnamed man. She mentions that her family was very poor (her stepfather sold his blood on her birthday to buy them food) and claims that her mother was a drug dealer. Lily committed suicide when Phoebe and Ursula were thirteen, by carbon monoxide poisoning; afterward their stepfather went to prison. She occasionally mentions Lily\&apos;s strange behavior and methods of raising her children." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/button8"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:onClick="Guardar" />
+</RelativeLayout>
