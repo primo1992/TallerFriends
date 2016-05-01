@@ -29,7 +29,7 @@ public class opcion2m extends AppCompatActivity {
 
         SharedPreferences prefs = getPreferences(MODE_PRIVATE);
         float i = prefs.getFloat("puntuacion", 0);
-        RatingBar rabar = (RatingBar) findViewById(R.id.ratingBar);
+        RatingBar rabar = (RatingBar) findViewById(R.id.ratingBar5);
         rabar.setRating(i);
     }
 }
